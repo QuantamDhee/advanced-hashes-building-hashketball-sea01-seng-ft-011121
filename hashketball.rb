@@ -116,5 +116,5 @@ def game_hash
        ]
     }
   }
-  building.pry
+  binding.pry
 end
