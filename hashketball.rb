@@ -5,8 +5,8 @@ def game_hash
     home: {
       :team_name => "Brooklyn Nets",
       :colors => ["Black", "White"],
-      :players => [ 
-        "Alan Anderson" => {
+      :players => [ {
+          :name => "Alan Anderson",
           :number => 0,
           :shoe => 16,
           :points => 22, 
@@ -16,7 +16,7 @@ def game_hash
           :blocks => 1,
           :slam_dunks => 1
         },
-        "Reggi Evans" => {
+        { :name => "Reggi Evans",
           :number => 30,
           :shoe => 14,
           :points => 12,
@@ -26,7 +26,7 @@ def game_hash
           :blocks => 12, 
           :slam_dunks => 7
         },
-        "Brook Lopez" => {
+        { :name => "Brook Lopez",
           :number => 11,
           :shoe => 17,
           :points => 17, 
