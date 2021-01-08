@@ -1,3 +1,5 @@
+
+
 def game_hash
   {
     home: {
@@ -114,4 +116,5 @@ def game_hash
        ]
     }
   }
+  building.pry
 end
